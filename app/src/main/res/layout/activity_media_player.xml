@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".MediaPlayer">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="101dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/background_control"
+        android:backgroundTint="#02A495"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="167dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/background_button"
+        android:backgroundTint="#9ED5D0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="152dp"
+        android:layout_height="164dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background_button"
+        android:backgroundTint="#009688"
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:srcCompat="@drawable/hasibangaye" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="242dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/arizonia"
+        android:text="Hasi Ban Gaye"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

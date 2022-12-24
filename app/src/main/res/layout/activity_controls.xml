@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_textfield"
+    tools:context=".Controls">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="86dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="47dp"
+        android:background="@drawable/background_control"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bluetoothoff" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="86dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="225dp"
+        android:background="@drawable/background_control"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:srcCompat="@drawable/vibrateoff" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="86dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="225dp"
+        android:background="@drawable/background_control"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@drawable/nowifi" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="86dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="47dp"
+        android:background="@drawable/background_control"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/torchoff" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="149dp"
+        android:fontFamily="@font/anton"
+        android:text="Controls"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
